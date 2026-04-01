@@ -259,7 +259,10 @@ with tab2:
         },
         marginal_x="histogram", marginal_y="histogram"
     )
-    fig_scatter.update_traces(marker=dict(size=9, opacity=0.8))
+    fig_scatter.update_traces(
+    marker=dict(size=9, opacity=0.8),
+    selector=dict(mode='markers')
+    )
     fig_scatter.update_layout(
         height=480, plot_bgcolor='white', paper_bgcolor='white',
         legend=dict(orientation="h", yanchor="bottom", y=-0.25)
