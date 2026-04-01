@@ -1,0 +1,14 @@
+{
+    "name": "iris_classifier",
+    "algorithm": "DecisionTreeClassifier",
+    "metrics": {
+        "accuracy": 0.9333,
+        "precision": 0.9333,
+        "recall": 0.9333,
+        "f1": 0.9333
+    },
+    "version": 1,
+    "registration_date": "2026-04-01T08:24:56.797966",
+    "model": "iris_classifier_model_v1.joblib",
+    "features": "iris_classifier_features_v1.joblib"
+}
